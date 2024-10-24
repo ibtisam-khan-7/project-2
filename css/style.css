@@ -5,6 +5,50 @@ body {
 
 }
 
+/* Navbar Custom Styles */
+.navbar {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.navbar-brand img {
+    transition: transform 0.3s;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.05);
+}
+
+.nav-link {
+    color: #343a40;
+    transition: color 0.3s;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+    color: #00952c;
+    background-color: rgba(0, 149, 44, 0.1);
+    border-radius: 0.25rem;
+}
+
+.navbar-toggler {
+    border-color: #00952c;
+}
+
+
+.collapse.navbar-collapse {
+    justify-content: flex-end;
+  
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        background-color: #f8f9fa;
+        /* Ensure background on mobile */
+    }
+}
+
 /* hero */
 
 #hero {

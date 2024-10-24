@@ -8,6 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="sweetalert2.min.css">
+
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -18,13 +23,15 @@
         <div class="container">
             <a class="navbar-brand d-flex gap-2 justify-content-center align-items-end" href="#">
                 <img src="./images/ecologo.png" style="height: 70px;" alt="Logo">
-                <h3 class="text-uppercase fs-5 text-center" style="color: #00952c;">Eco Electric <br> Scooter & Bikes</h3>
+                <h3 class="text-uppercase fs-5 text-center" style="color: #00952c;">Eco Electric <br> Scooter & Bikes
+                </h3>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Electric Scooters</a>
@@ -48,46 +55,50 @@
                         <a class="nav-link" href="#"><i class="ri-search-line"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="ri-shopping-cart-line"></i> </a>
+                        <a class="nav-link" href="#"><i class="ri-shopping-cart-line"></i></a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+
     <!-- hero -->
-    <section id="hero" >
+    <section id="hero">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-8 ">
                     <div class="h-content ">
                         <h2>Get the Right Electric</h2>
                         <h2 style="color:#00a750;">Scooter and Bike</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minima nulla accusantium est placeat
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat minima nulla accusantium est
+                            placeat
                             deleniti commodi, dolor praesentium vitae eius, eos facilis enim totam id.</p>
-                        <button type="button" class="btn btn-success">Shop Now</button>
+                        <button type="button" class="btn btn-success" id="btn-alert">Shop Now</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
-    
+
+
 
     <!-- shop by category -->
     <section id="category" class="my-5">
         <h3 class="mb-5 text-center fs-3 fw-bold">Shop by Category</h3>
         <div class="container">
             <div class="row  m-0">
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
-                    <div class="pic-text">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex justify-content-center" data-aos="fade-up"
+                    data-aos-duration="3000">
+                    <div class=" pic-text">
                         <div class="ebike-img">
                             <i class="ri-riding-line" style="font-size: 60px; color: white;"></i>
                         </div>
                         <p class="text-center fs-5 fw-bold" style="color: #35363b;">Electric Bikes</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex justify-content-center" data-aos="fade-up"
+                    data-aos-duration="3000">
                     <div class="pic-text">
                         <div class="ebike-img" style="background-color: #00a750;">
                             <i class="ri-e-bike-fill" style="font-size: 60px; color: white;"></i>
@@ -95,7 +106,8 @@
                         <p class="text-center fs-5 fw-bold" style="color: #35363b;">Electric Scooters</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex justify-content-center" data-aos="fade-up"
+                    data-aos-duration="3000">
                     <div class="pic-text">
                         <div class="ebike-img">
                             <i class="ri-motorbike-fill" style="font-size: 60px; color: white;"></i>
@@ -103,7 +115,8 @@
                         <p class="text-center fs-5 fw-bold" style="color: #35363b;">Electric Bikes</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex justify-content-center" data-aos="fade-up"
+                    data-aos-duration="3000">
                     <div class="pic-text">
                         <div class="ebike-img" style="background-color: #09cbcb;">
                             <i class="ri-riding-line" style="font-size: 60px; color: white;"></i>
@@ -121,7 +134,7 @@
         <div class="container">
             <h2 class="text-uppercase text-center fs-3 fw-bold">New Arrival</h2>
             <div class="row py-5 gy-5 ">
-                <div class="col-lg-4 col-md-6 col-sm-12   ">
+                <div class="col-lg-4 col-md-6 col-sm-12" data-aos="zoom-in-left" data-aos-duration="1500">
                     <div class="card border-0 px-2 py-2 card-h mx-auto " style="width: 18rem; ">
                         <img src="images/img-1.png" class="card-img-top p-2" alt="...">
                         <div class="card-body">
@@ -137,7 +150,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                <div class="col-lg-4 col-md-6 col-sm-12" data-aos="zoom-out-up" data-aos-duration="1500">
                     <div class="card border-0 card-h mx-auto px-2 py-2 " style="width: 18rem;">
                         <img src="images/img-5.png" class="card-img-top p-2" alt="...">
                         <div class="card-body">
@@ -153,7 +166,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12  ">
+                <div class="col-lg-4 col-md-6 col-sm-12" data-aos="zoom-in-right" data-aos-duration="1500">
                     <div class="card border-0 card-h px-2 py-2 mx-auto " style="width: 18rem;">
                         <img src="images/img-1.png" class="card-img-top p-2" alt="...">
                         <div class="card-body">
@@ -177,7 +190,7 @@
     <section id="cards">
         <div class="container">
             <div class="row ">
-                <div class="col-lg-6 mt-5  ">
+                <div class="col-lg-6 mt-5  " data-aos="flip-up" data-aos-duration="1500">
                     <div class=" card-cnt-1 text-uppercase pt-5 ps-4 card-h ">
                         <h2 class="fw-bold">Electric Scooters</h2>
                         <p style="color: #959595;">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br>
@@ -186,7 +199,7 @@
                         <a href="#" class="btn btn-success py-2">SHOP NOW</a>
                     </div>
                 </div>
-                <div class="col-lg-6 mt-5  ">
+                <div class="col-lg-6 mt-5" data-aos="flip-down" data-aos-duration="1500">
                     <div class=" card-cnt-2 text-uppercase pt-5 ps-4 card-h ">
                         <h2 class="fw-bold">Electric Scooters</h2>
                         <p style="color: #959595;">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br>
@@ -211,7 +224,8 @@
             <div class="row gy-5 py-5">
                 <div class="col-lg-4 col-md-6 col-sm-12 ">
                     <div class="card border-0 px-2 py-2 card-h mx-auto" style="width: 18rem;">
-                        <img src="images/C21_C61351M_Trail_Neo_3_BLK_3Q-Photoroom.png" class="card-img-top p-2" alt="...">
+                        <img src="images/C21_C61351M_Trail_Neo_3_BLK_3Q-Photoroom.png" class="card-img-top p-2"
+                            alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title">Cannondale Adventure Neo Electric Green Bike 250W 500Wh 125km</h5>
                             <p class="fs-5 m-0" style="color: #979fa4;">
@@ -245,7 +259,8 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 ">
                     <div class="card border-0 px-2 py-2 card-h mx-auto" style="width: 18rem;">
-                        <img src="images/C23_C61303U_Trail_Neo_3_ORG_3Q-Photoroom.png" class="card-img-top p-2" alt="...">
+                        <img src="images/C23_C61303U_Trail_Neo_3_ORG_3Q-Photoroom.png" class="card-img-top p-2"
+                            alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title">Cannondale Adventure Neo Electric Green Bike 250W 500Wh 125km</h5>
                             <p class="fs-5 m-0" style="color: #979fa4;">
@@ -263,8 +278,8 @@
             </div>
         </div>
     </section>
-    
-    
+
+
 
 
 
@@ -295,38 +310,38 @@
 
     <!-- shipping -->
     <section id="shipping">
-    <div class="container">
-        <div class="row justify-content-center gap-5  m-0">
-            <div class="col-lg-3 col-md-3 col-sm-12 mb-4 d-flex gap-4 py-3 s-icon">
-                <div class="shipping-icon">
-                    <i class="ri-truck-line fs-1 text-white"></i>
+        <div class="container">
+            <div class="row justify-content-center gap-5  m-0">
+                <div class="col-lg-3 col-md-3 col-sm-12 mb-4 d-flex gap-4 py-3 s-icon">
+                    <div class="shipping-icon">
+                        <i class="ri-truck-line fs-1 text-white"></i>
+                    </div>
+                    <div class="flex-column pt-2">
+                        <h5 class="text-capitalize fw-bold">free shipping</h5>
+                        <p class="text-capitalize m-0">on oder over £150</p>
+                    </div>
                 </div>
-                <div class="flex-column pt-2">
-                    <h5 class="text-capitalize fw-bold">free shipping</h5>
-                    <p class="text-capitalize m-0">on oder over £150</p>
+                <div class="col-lg-3 col-md-3 col-sm-12 mb-4 d-flex gap-4 py-3 s-icon">
+                    <div class="shipping-icon" style="background: #00952c;">
+                        <i class="ri-secure-payment-line fs-1 text-white"></i>
+                    </div>
+                    <div class="flex-column pt-2">
+                        <h5 class="text-capitalize fw-bold">secure payment</h5>
+                        <p class="text-capitalize m-0">100% risk free payment</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 mb-4 d-flex gap-4 py-3 s-icon">
-                <div class="shipping-icon" style="background: #00952c;">
-                    <i class="ri-secure-payment-line fs-1 text-white"></i>
-                </div>
-                <div class="flex-column pt-2">
-                    <h5 class="text-capitalize fw-bold">secure payment</h5>
-                    <p class="text-capitalize m-0">100% risk free payment</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12  mb-4 d-flex gap-4 py-3 s-icon">
-                <div class="shipping-icon" style="background-color: #09cbcb;">
-                    <i class="ri-award-fill fs-1 text-white"></i>
-                </div>
-                <div class="flex-column pt-2">
-                    <h5 class="text-capitalize fw-bold">quality products</h5>
-                    <p class="text-capitalize m-0">we guarantee our product</p>
+                <div class="col-lg-3 col-md-3 col-sm-12  mb-4 d-flex gap-4 py-3 s-icon">
+                    <div class="shipping-icon" style="background-color: #09cbcb;">
+                        <i class="ri-award-fill fs-1 text-white"></i>
+                    </div>
+                    <div class="flex-column pt-2">
+                        <h5 class="text-capitalize fw-bold">quality products</h5>
+                        <p class="text-capitalize m-0">we guarantee our product</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
 
@@ -335,7 +350,7 @@
     <section id="footer" class="py-5 mt-5 text-dark">
         <div class="container">
             <div class="row m-0 align-items-start gap-5 ">
-    
+
                 <div class="col-lg-4 col-md-6 mb-4 ">
                     <a class="text-decoration-none d-flex gap-3 align-items-center" href="#">
                         <img src="images/ecologo.png" class="img-fluid">
@@ -343,8 +358,9 @@
                             eco electric <br> scooter & bikes
                         </h3>
                     </a>
-                    <p class="mt-3 fs-6">Delivering high-quality electric scooters and bikes at competitive prices, ensuring exceptional value for customers.</p>
-    
+                    <p class="mt-3 fs-6">Delivering high-quality electric scooters and bikes at competitive prices,
+                        ensuring exceptional value for customers.</p>
+
                     <div class="d-flex fs-5 gap-5  mt-4">
                         <i class="ri-facebook-fill text-success"></i>
                         <i class="ri-twitter-fill text-success"></i>
@@ -352,7 +368,7 @@
                         <i class="ri-instagram-fill text-success"></i>
                     </div>
                 </div>
-    
+
                 <div class="col-lg-2  col-md-6 mb-4">
                     <h5 class="text-uppercase mb-4 fw-bold">Quick Links</h5>
                     <ul class="list-unstyled">
@@ -363,7 +379,7 @@
                         <li><a href="#" class="text-decoration-none">Contact Us</a></li>
                     </ul>
                 </div>
-    
+
                 <div class="col-lg-2  col-md-6 mb-4">
                     <h5 class="text-uppercase mb-4 fw-bold">Products</h5>
                     <ul class="list-unstyled">
@@ -374,7 +390,7 @@
                         <li><a href="#" class="text-decoration-none">Return Policy</a></li>
                     </ul>
                 </div>
-    
+
                 <div class="col-lg-2  col-md-6 mb-4">
                     <h5 class="text-uppercase mb-4 fw-bold">Contact</h5>
                     <ul class="list-unstyled">
@@ -384,7 +400,7 @@
                     </ul>
                 </div>
             </div>
-    
+
             <div class="row m-0">
                 <div class="col text-center  border-top border-dark mt-4 pt-3">
                     <div class="d-flex flex-column flex-md-row justify-content-between">
@@ -396,11 +412,29 @@
         </div>
     </section>
 
-    
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        const btn = document.getElementById("btn-alert");
+        btn.addEventListener("click", () => {
+            Swal.fire({
+                position: "top-center",
+                icon: "success",
+                title: "Your work has been saved",
+                showConfirmButton: false,
+                timer: 1500
+            });
+        });
+    </script>
 
 </body>
