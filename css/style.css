@@ -8,7 +8,7 @@ body {
 /* hero */
 
 #hero {
-    background-image: url('/images/bg4.jpg');
+    background-image: url("/images/bg4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -85,7 +85,7 @@ body {
 
 .card-cnt-1 {
     border-radius: 20px;
-    background-image: url('/images/scooter.png');
+    background-image: url("/images/scooter.png");
     background-position: center;
     background-size: cover;
     height: 50vh;
@@ -93,7 +93,7 @@ body {
 
 .card-cnt-2 {
     border-radius: 20px;
-    background-image: url('/images/accessories.png');
+    background-image: url("/images/accessories.png");
     background-position: center;
     background-size: cover;
     height: 50vh;
